@@ -6,7 +6,7 @@ target 'Auth' do
   use_frameworks!
 
   # Pods for Auth
-  
+  pod 'SwiftyJSON', git: 'https://github.com/BaiduHiDeviOS/SwiftyJSON.git', branch: 'swift3'
 
   target 'AuthTests' do
     inherit! :search_paths
