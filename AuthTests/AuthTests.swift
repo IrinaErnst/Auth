@@ -2,7 +2,7 @@
 //  AuthTests.swift
 //  AuthTests
 //
-//  Created by Irina Kalashnikova on 9/26/16.
+//  Created by Irina Ernst on 9/26/16.
 //  Copyright © 2016 Irina Ernst. All rights reserved.
 //
 

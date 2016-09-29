@@ -23,6 +23,9 @@
 		A7A58CC71D9ACFD900400073 /* ReposTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A58CC61D9ACFD900400073 /* ReposTableViewController.swift */; };
 		A7A58CC91D9AD02C00400073 /* Repos.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A58CC81D9AD02C00400073 /* Repos.swift */; };
 		A7A58CCB1D9AD0C200400073 /* ReposDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A58CCA1D9AD0C200400073 /* ReposDataStore.swift */; };
+		A7A58CD51D9D80C300400073 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A58CD41D9D80C300400073 /* SwiftyJSON.framework */; };
+		A7A58CD71D9D80CB00400073 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A58CD61D9D80CB00400073 /* Alamofire.framework */; };
+		A7A58CD91D9D9B4300400073 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A58CD81D9D9B4300400073 /* Extentions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +71,13 @@
 		A7A58CC61D9ACFD900400073 /* ReposTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReposTableViewController.swift; sourceTree = "<group>"; };
 		A7A58CC81D9AD02C00400073 /* Repos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repos.swift; sourceTree = "<group>"; };
 		A7A58CCA1D9AD0C200400073 /* ReposDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReposDataStore.swift; sourceTree = "<group>"; };
+		A7A58CCC1D9B29A900400073 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Release-iphoneos/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		A7A58CCE1D9C60D800400073 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "Pods/../build/Release-iphoneos/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		A7A58CD01D9D670100400073 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Debug-iphoneos/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		A7A58CD21D9D7ED900400073 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Release-iphoneos/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		A7A58CD41D9D80C300400073 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Auth-dlstbehtabcdrsckdxwqmwhnyull/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		A7A58CD61D9D80CB00400073 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Auth-dlstbehtabcdrsckdxwqmwhnyull/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		A7A58CD81D9D9B4300400073 /* Extentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
 		DAC6AB2F47425A7E954E1657 /* Pods-AuthTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuthTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AuthTests/Pods-AuthTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EB80860A6D4974D37DEA9ABF /* Pods_Auth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Auth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0733878CC343FA28490E5CD /* Pods-Auth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Auth/Pods-Auth.debug.xcconfig"; sourceTree = "<group>"; };
@@ -78,6 +88,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7A58CD71D9D80CB00400073 /* Alamofire.framework in Frameworks */,
+				A7A58CD51D9D80C300400073 /* SwiftyJSON.framework in Frameworks */,
 				9E19D7E4B53F29FFE0000030 /* Pods_Auth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -104,6 +116,12 @@
 		9225BFF264022F8F2937E98D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A7A58CD61D9D80CB00400073 /* Alamofire.framework */,
+				A7A58CD41D9D80C300400073 /* SwiftyJSON.framework */,
+				A7A58CD21D9D7ED900400073 /* Alamofire.framework */,
+				A7A58CD01D9D670100400073 /* Alamofire.framework */,
+				A7A58CCE1D9C60D800400073 /* SwiftyJSON.framework */,
+				A7A58CCC1D9B29A900400073 /* Alamofire.framework */,
 				EB80860A6D4974D37DEA9ABF /* Pods_Auth.framework */,
 				2738DACFA0D566F7FEAFF4A9 /* Pods_AuthTests.framework */,
 				6F397DCC919111F30F574E1D /* Pods_AuthUITests.framework */,
@@ -139,6 +157,7 @@
 				A7A58C911D99C04600400073 /* AppDelegate.swift */,
 				A7A58C931D99C04600400073 /* LoginViewController.swift */,
 				A7A58CC41D99FBAD00400073 /* GitHubAPIClient.swift */,
+				A7A58CD81D9D9B4300400073 /* Extentions.swift */,
 				A7A58CC81D9AD02C00400073 /* Repos.swift */,
 				A7A58CCA1D9AD0C200400073 /* ReposDataStore.swift */,
 				A7A58CC61D9ACFD900400073 /* ReposTableViewController.swift */,
@@ -462,6 +481,7 @@
 				A7A58CC71D9ACFD900400073 /* ReposTableViewController.swift in Sources */,
 				A7A58CC91D9AD02C00400073 /* Repos.swift in Sources */,
 				A7A58CCB1D9AD0C200400073 /* ReposDataStore.swift in Sources */,
+				A7A58CD91D9D9B4300400073 /* Extentions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -616,6 +636,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = B9NU7FF5WD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Release-iphoneos/Alamofire",
+					"$(PROJECT_DIR)/build/Release-iphoneos/SwiftyJSON",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Alamofire",
+				);
 				INFOPLIST_FILE = Auth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = self.irina.Auth;
@@ -631,6 +657,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = B9NU7FF5WD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Release-iphoneos/Alamofire",
+					"$(PROJECT_DIR)/build/Release-iphoneos/SwiftyJSON",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Alamofire",
+				);
 				INFOPLIST_FILE = Auth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = self.irina.Auth;
